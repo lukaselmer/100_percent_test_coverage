@@ -2,7 +2,7 @@ require 'spec_helper'
 require_relative '../lib/calculator'
 
 describe Calculator do
-  before(:example) do
+  before(:each) do
     @calculator = Calculator.new
   end
 
@@ -20,8 +20,4 @@ describe Calculator do
   it 'calculates the sum when the result is zero' do
     expect(@calculator.sum(-11, 11)).to eq(0)
   end
-
-  # it 'calculates a special sum (42)' do
-  #   expect(@calculator.sum(40, 2)).to eq(42)
-  # end
 end
