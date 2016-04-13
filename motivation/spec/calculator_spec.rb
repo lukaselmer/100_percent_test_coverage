@@ -10,4 +10,9 @@ describe Calculator do
     expect(c.sum(-19, 3)).to eq(-16)
     expect(c.sum(100, 32)).to eq(132)
   end
+
+  #it 'calculates a special sum (42)' do
+  #  c = Calculator.new
+  #  expect(c.sum(40, 2)).to eq(42)
+  #end
 end
