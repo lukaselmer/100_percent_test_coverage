@@ -7,8 +7,9 @@ class Calculator
 
   private
 
-  # TODO: add nocov
+  # :nocov:
   def it_is_42!
     raise '42!!'
   end
+  # :nocov:
 end

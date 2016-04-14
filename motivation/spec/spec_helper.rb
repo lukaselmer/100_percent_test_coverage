@@ -1,7 +1,7 @@
-#require 'simplecov'
-#SimpleCov.start
+require 'simplecov'
+SimpleCov.start
 # For rails: SimpleCov.start 'rails'
-#SimpleCov.minimum_coverage 100
+SimpleCov.minimum_coverage 100
 
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
